@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue, roman]{casual}
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Igmar}
+\familyname{Palsenberg}
+\address{Eltingerhof 90}{6921 DG}
+\phone[mobile]{+31 613256781}
+\title{Curriculum Vitae}
+\email{igmar@palsenberg.com}
+\homepage{www.palsenberg.com}
+\social[twitter]{Palsenberg}
+\social[github]{igmar}
+\social[linkedin]{igmarpalsenberg}
+\extrainfo{Dutch drivers license B}
+%% \quote{``Quality over quantity.''}
+
+%\photo[64pt]{avatar.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%% \renewcommand*{\sectionfont}{\LARGE\sffamily\monospace\slshape}
+%% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
+%% \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{1997--2001}{MS in Information Techologie}{HAN univeristy of applied science}{}{Bsc}{}
+\cventry{1993--1997}{Telematics}{MTS Deventer}{}{}{}
+
+\section{Languages}
+\cvitemwithcomment{Dutch}{Native language}{}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{German}{Good}{}
+
+\section{Bachelor thesis}
+\cventry{2001--2001}
+{Thesis}
+{C, PHP}
+{Graduate project}{}
+{
+Wrote an PostgreSQL extension that encrypts the database records in a row
+level. The extensions comes with some options that make storing transactional
+data in PostgreSQL easier.
+}
+
+\section{Internship}
+\cventry{2000}{End-year internship at Tunix}{}{}{}{Designed and implemented a firewall log analysis system}
+
+\section{Community}
+\cventry{Blog}{\url{www.palsenberg.com}}{My blog}{}{}{}
+\cventry{Github}{\url{github.com/igmar}}{Github}{}{}{}
+\cventry{Tweakers.net}{\url{http://tweakers.net/gallery/5365}}{}{}{}{}
+
+\section{Work Experience}
+%% \subsection{Research Projects}
+
+\vspace*{0.2\baselineskip}
+\cventry{2001--2013}
+{JDI internet professionals}
+{}
+{}
+{}
+{
+CTO of JDI internet professionals. Responsible for all technical decision
+making within the company.
+We created our own CMS, aimed at the best customer experience possible. We
+rewrote the CMS in 2013 using the latest technologies, but keeping the focus
+aimed at the customer experience.
+I was responsible for all server maintenance, rolling out new machines,
+and designing tailor made solutions for our customers.
+}
+
+\vspace*{0.2\baselineskip}
+\cventry{1998--2000}
+{Support desk Het Net}
+{KPN}
+{}
+{}
+{
+First line support at KPN helpdesk services. Supervised the people when dealing
+with end-user related issues.
+}
+
+\section{Skills}
+\cventry{Languages}{C = Java = PHP > C++ > Bash > Python}{}{}{}{}
+\cventry{Kernels}{Linux, Xen, KVM}{}{}{}{}
+\cventry{Linux}{CentOS, RHEV}{}{}{}{}
+%% \cventry{Application Dev}{Play framework}{}{}{}{}
+\cventry{Games}{OceanHorn}{}{}{}{}
+
+% \closesection{}                   % needed to renewcommands
+% \renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%cvlistdoubleitem[\Neutral]{Item 3}{}
+
+\end{document}
